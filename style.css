@@ -1,0 +1,324 @@
+
+html, body {
+
+
+  /* height: 100%; */
+  /* padding: 0;
+  margin: 0; */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  width: 100vw;
+  height: 95vh;
+  background-color: rgb(84, 21, 84);
+  padding-top: 15px;
+  color: white;
+  padding-left: 50px;
+}
+
+.menus a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 10px 10px 10px;
+
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+a {
+  font-size: 10px;
+}
+
+.menus {
+  padding-left: 10px;
+  margin-left: 20px;
+  margin-top: 6px;
+}
+
+/* The main part: */
+
+.first-part {
+  display: flex;
+  padding-top: 8px;
+  padding-left: 20px;
+}
+
+.logo h2,
+img {
+  padding-top: 6px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  padding-bottom: 25px;
+  padding-left: 15px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+}
+
+.nonbutton {
+  display: flex;
+  position: relative;
+  left: 350px;
+  bottom: 17px;
+}
+
+.btn {
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 145px;
+  height: 40px;
+  font-weight: 700;
+  margin: 8px 8px 10px 10px;
+  text-align: center;
+}
+
+.button1 {
+  background-color: transparent;
+  color: white;
+}
+
+.btn:hover {
+  transform: scale(1.2);
+}
+
+.sign-in {
+  display: inline;
+  justify-content: end;
+  position: relative;
+  left: 260px;
+  top: 20px;
+  font-weight: bolder;
+}
+
+.second-part {
+  position: relative;
+  right: 50px;
+  padding-right: 20px;
+}
+.logo img {
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  position: relative;
+  right: 34px;
+  bottom: 75px;
+}
+
+.icon {
+  display: inline-block;
+  align-items: right;
+  position: relative;
+  right: 90px;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+.third-part h2 {
+  font-size: 3rem;
+  display: inline-block;
+}
+
+span {
+  color: rgb(234, 176, 47);
+}
+
+/* The Third part: */
+
+.third-part p {
+  font-size: 21px;
+  line-height: 26px;
+  margin-left: 0;
+  padding-left: 20px;
+  letter-spacing: -0.2px;
+  font-weight: 500;
+}
+
+.big-buttons {
+  padding-top: 30px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.bigbtn {
+  border: 2px solid white;
+  border-radius: 2px;
+  width: 238px;
+  height: 58px;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.8;
+}
+
+.bigbtn1 {
+  color: rgb(84, 21, 84);
+}
+
+.bigbtn2 {
+  background-color: rgb(66, 133, 244);
+  border: 2px solid rgb(66, 133, 244);
+  color: white;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.bigbtn2 img {
+  width: 60px;
+  height: 56px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  margin-left: 3px;
+  display: block;
+}
+
+.SPAN {
+  position: relative;
+  bottom: 38px;
+  left: 20px;
+  color: white;
+  line-height: 10px;
+}
+
+.paragraph {
+  color: white;
+  display: block;
+  position: relative;
+  right: 20px;
+  top: 20px;
+}
+
+/* .left-part {
+
+  background-color: rgb(90, 24, 90);
+  opacity: 2px;
+  width: 625px;
+  height: 400px;
+  display: inline-block;
+  position: absolute;
+  bottom: 700px;
+  left: 650px;
+  top: 150px;
+  margin-left: 28px;
+} */
+
+.left-part video {
+  width: 72%;
+  height: 380px;
+  position: absolute;
+  left: 505px;
+  bottom: 150px;
+  padding-right: 20px;
+ 
+
+}
+
+.left-part{
+
+  display: inline-block;
+}
+
+/* .circle-div{
+
+  position: relative;
+  top: 120px;
+  right: 5px;
+
+  width: 100%;
+  height: 260px;
+  background-color: rgb(75, 10, 75);
+border-left: 2px solid rgb(90, 24, 90);
+border-radius: 130px;
+
+}
+
+.mac-div{
+
+  width: 70%;
+  height: 280px;
+  
+  background-color:rgba(207, 45, 207, 0.450);
+  position: relative;
+  left: 187px;
+  bottom: 115px;
+
+}
+
+.mac-div img {
+
+  position:relative;
+  bottom: 10px;
+  width: 100%;
+  height: 30px;
+}
+
+.overlay {
+
+  display: inline-block;
+  position: relative;
+}
+
+.overlay img {
+
+  display: inline-block;
+
+  width: 270px;
+  height: 370px;
+  position: absolute;
+  bottom: 20px;
+  box-shadow: solid white  50px;
+}
+
+.white-div {
+
+  width: 85%;
+  height: 250px;
+  background-color: white;
+position: relative;
+left: 60px;
+bottom: 12px;
+} */
+
+/* The main part: */
+
+main {
+  height: 100vh; /* Full viewport height */
+  width: 100vw;
+  background-color: rgb(244, 237, 228);
+}
+
+main p {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  padding-top: 40px;
+}
+
+.main-logos {
+  display: inline-flex;
+  width: 80px;
+  height: 40px;
+  align-items: center;
+  justify-items: center;
+}
+
+.main-logos img {
+  position: relative;
+
+  padding-left: 75px;
+
+  padding-top: 100px;
+}
